@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    background-color: #C3E2DC;
+    height: 60px;
+    align-items: center;
+    padding:50px 40px;
+    margin: 0px 400px;
+    border-bottom: 1px solid var(--purple);
+    justify-content: space-between;
+}
+
+header a {
+    color: var(--purple);
+    font-weight: 300;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 60px;
+    color: var(--purple);
+    font-family: 'Gowun Batang', serif;
+}

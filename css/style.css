@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Oswald:wght@200;300&display=swap');
+@import "reset.css";
+@import "variables.css";
+@import "header.css";
+
+body {
+    font-family: 'Gowun Batang', serif;
+    font-family: 'Oswald', sans-serif;
+    background-color: #C3E2DC;
+}
