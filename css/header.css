@@ -1,12 +1,13 @@
 header {
     display: flex;
-    background-color: #C3E2DC;
+    background-color: #FFE8E6;
     height: 60px;
     align-items: center;
-    padding:50px 40px;
+    padding:50px 60px 50px 40px;
     margin: 0px 400px;
-    border-bottom: 1px solid var(--purple);
+    border-bottom: 0.5px solid var(--purple);
     justify-content: space-between;
+    border-radius: 5px;
 }
 
 header a {
@@ -15,8 +16,45 @@ header a {
     font-size: 20px;
 }
 
+
 h1 {
     font-size: 60px;
     color: var(--purple);
     font-family: 'Gowun Batang', serif;
+    -webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-contract 1.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
+
+.header-side {
+    margin: 0px 60px;
+}
+
+
+@-webkit-keyframes tracking-in-contract {
+    0% {
+      letter-spacing: 1em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      letter-spacing: normal;
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-contract {
+    0% {
+      letter-spacing: 1em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      letter-spacing: normal;
+      opacity: 1;
+    }
+  }
+  
+  
